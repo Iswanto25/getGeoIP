@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "name": "express-user",
+    "builds": [
+       { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ],
+    "static": {
+    "directory": "public"
+  }
+ }
