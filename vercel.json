@@ -6,8 +6,5 @@
     ],
     "routes": [
        { "src": "/(.*)", "dest": "/app.js" }
-    ],
-    "static": {
-    "directory": "public"
-  }
+    ]
  }
